@@ -250,10 +250,19 @@ background-size: 70px 70px !important;
 .embedded-service .channelmenu_header h2 {
  color: #FFFFFF !important;
 }
-div#esw-channelmenu[channelmenu active showAnimation] {
-	right: 20em;
-	top: 20em;
+	
+button#esw-fab[aria-expanded="true"] {	
+    height: 56px !important;
+    width: 56px !important;
+    bottom: 16px !important;
+    right: 30px;
 }
+
+button#esw-fab[aria-expanded="false"] {	
+    top: 60em;			
+    right: 40em;
+}
+	
 </style>
 <script type='text/javascript'>
 var initESW = function(gslbBaseURL) {
